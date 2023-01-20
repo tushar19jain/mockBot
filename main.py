@@ -4,7 +4,7 @@ from telegram.ext.callbackcontext import CallbackContext
 from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
-updater = Updater("5843549496:AAFi44sphiSFITxdcyb8yIGnbhb0j0pSt5I",use_context=True)
+updater = Updater("PYTHON BOT API KEY",use_context=True)
 def startFun(update:Update,context:CallbackContext):
     update.message.reply_text("Hello friend welcome to the mockbot.I am designed to help you in your studies,Type /help to see all commands.")
     update.message.reply_text("Select your University-\n"
